@@ -64,30 +64,57 @@ header{
 .bloque-uno{
     text-align: left;
     width: 450px;
+    border-bottom: grey solid 2px;
+    padding: 50px;
 
 }
 
 .bloque-dos{
     text-align: left;
     width: 450px;
+    border-bottom: grey solid 2px;
+    padding: 50px;
+
+
 }
 
 .bloque-tres{
     text-align: left;
     width: 450px;
+    padding: 50px;
+
 }
 
-.bloque-cuatro{
-    text-align: right;
+.bloque-cuatro {
+    text-align: left;
     width: 500px;
+    padding: 50px;
+    
+
    
 }
 
 .bloque-cinco{
-    text-align: right;
+    text-align: left;
     width: 500px;
+    padding: 50px;
+
   
 
 }
 
+.bloque-cuatro-cinco{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    bottom: 860px;
+}
+.titulo-sub{
+    border-bottom: grey solid 2px;
+    padding: 10px;
+
+
+
+}
 
