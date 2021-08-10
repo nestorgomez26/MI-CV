@@ -18,5 +18,28 @@ body {
 header{
     background-color: #333;
     color: white;
-    width: 900px;
+    width: 1000px;
+    height: 350px;
+    position: relative;
+    top: 100px;
+   
+}
+
+.icono {
+    width: 50px;
+}
+.foto-perfil{
+    border: 10px solid gray;
+    width: 290px;
+    height: 340px;
+    
+}
+
+.image{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 160px;
+    left: 80px;
 }
