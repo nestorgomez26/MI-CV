@@ -7,6 +7,7 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
  
 }
 
@@ -24,9 +25,17 @@ header{
     top: 100px;
    
 }
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
 
 .icono {
     width: 50px;
+    
 }
 .foto-perfil{
     border: 10px solid gray;
@@ -43,3 +52,42 @@ header{
     bottom: 160px;
     left: 80px;
 }
+.footer{
+    padding-top: 100px;
+    margin-left: auto;
+}
+.footer-uno{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.bloque-uno{
+    text-align: left;
+    width: 450px;
+
+}
+
+.bloque-dos{
+    text-align: left;
+    width: 450px;
+}
+
+.bloque-tres{
+    text-align: left;
+    width: 450px;
+}
+
+.bloque-cuatro{
+    text-align: right;
+    width: 500px;
+   
+}
+
+.bloque-cinco{
+    text-align: right;
+    width: 500px;
+  
+
+}
+
+
