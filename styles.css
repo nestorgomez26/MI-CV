@@ -6,7 +6,7 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Helvetica, sans-serif;
+    font-family:font-family: 'Roboto Condensed', sans-serif, Helvetica;
     background-color: rgb(82, 86, 89);
     color: #333;
     margin top: 0px;
@@ -50,7 +50,7 @@ header{
 }
 
 .icono {
-    width: 50px;
+    width: 28px;
     position: relative;
     left: 50px;
  
@@ -111,8 +111,6 @@ header{
     opacity: 90%;
 
 
-
-
 }
 
 .bloque-tres{
@@ -135,9 +133,6 @@ header{
     line-height: 24px;
     
 
-
-    
-
    
 }
 
@@ -148,9 +143,6 @@ header{
     opacity: 90%;
     line-height: 24px;
 
-
-
-  
 
 }
 
