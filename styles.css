@@ -10,9 +10,6 @@ body {
     background-color: rgb(82, 86, 89);
     color: #333;
     margin top: 0px;
-    height: 100vh;
-
-    
 
      
 }
@@ -183,7 +180,7 @@ header{
 .posicion{
     position: relative;
     left: -160px;
-    text-align: right;
+    text-align: center;
     top: 60px;
     display: flex;
     justify-content: space-between;
@@ -207,7 +204,7 @@ header{
 }
 
 .input{
-
+color: black;
 
 }
 
@@ -219,15 +216,15 @@ header{
 .borde-uno{
     border-left: lightgrey solid 5px;
     position: absolute;
-    top: 8px;
+    top: -100px;
     height: 200px;
     width: 50px;
-    left: 470px;
+    left: 50px;
 }
 .borde-dos{
     border-left: lightgrey solid 5px;
     position: absolute;
-    top: 300px;
+    top: 180px;
     height: 200px;
     width: 50px;
-    left: 470px;
+    left: 50px;
