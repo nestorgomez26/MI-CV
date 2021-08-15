@@ -194,6 +194,9 @@ header{
     color: black;
     padding: 15px;
     text-transform: uppercase;
+    word-spacing: 30px;
+    text-align: right;
+   
     
 
 }
@@ -203,13 +206,7 @@ header{
     font-weight: 1.5em;
 }
 
-.input{
-color: black;
-
-}
-
-.profesion
-{
+.profesion{
     color: grey;
 }
 
@@ -228,3 +225,28 @@ color: black;
     height: 200px;
     width: 50px;
     left: 50px;
+}
+
+.input{
+    color: black;
+    cursor: pointer;
+    
+    }
+
+    input[type=range] {
+        width: 40%;
+        margin: 10px 0;
+        background-color: lightgray;
+        -webkit-appearance: none;
+        cursor: pointer;
+        color: #333;
+
+      }
+      input[type=range] {
+        background: #333;
+        border: 1px solid #333;
+        opacity: 95%;
+        height: 16px;
+
+
+      }
