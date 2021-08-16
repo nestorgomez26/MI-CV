@@ -4,12 +4,14 @@
 
 body {
     width: 1200px;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
     font-family:font-family: 'Roboto Condensed', sans-serif, Helvetica;
     background-color: rgb(82, 86, 89);
     color: #333;
     margin top: 0px;
+    
 
      
 }
@@ -20,7 +22,12 @@ body {
     font-size: 20px;
     box-shadow: 5px 5px 5px #333;
     line-height: 30px;
-    height: 185vh
+    overflow: hidden;
+    height: 1800px;
+    width: 100%;
+
+
+    
 }
 
 header{
@@ -195,7 +202,8 @@ header{
     padding: 15px;
     text-transform: uppercase;
     word-spacing: 30px;
-    text-align: right;
+    text-align: right   ;
+    
    
     
 
