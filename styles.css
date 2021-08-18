@@ -12,8 +12,6 @@ body {
     color: #333;
     margin top: 0px;
     
-
-     
 }
 
 .padre{
@@ -24,7 +22,6 @@ body {
     line-height: 30px;
     overflow: hidden;
     height: 1800px;
-    width: 100%;
 
 
     
@@ -149,7 +146,6 @@ header{
     margin-left: 40px;
     line-height: 24px;
     
-
    
 }
 
@@ -203,9 +199,12 @@ header{
     text-transform: uppercase;
     word-spacing: 30px;
     text-align: right   ;
+    position: relative;
+    left: 0%;
+    list-style-position: inside;
+
     
    
-    
 
 }
 .negrita{
@@ -238,7 +237,14 @@ header{
 .input{
     color: black;
     cursor: pointer;
-    
+    margin-left: 0px;
+    position: relative;
+    left: -160px;
+    width: 450px;
+    word-spacing: 46px;
+    font-size: 16px;
+
+
     }
 
     input[type=range] {
@@ -255,6 +261,22 @@ header{
         border: 1px solid #333;
         opacity: 95%;
         height: 16px;
-
-
       }
+
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+
+
+    }
+
+    input[type=range]::-webkit-slider-runnable-track {
+   
+     
+      
+
+    }
+    input[type=range]:focus::-webkit-slider-runnable-track {
+    
+
+    }
+  
